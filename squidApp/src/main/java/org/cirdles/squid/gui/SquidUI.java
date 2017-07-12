@@ -44,6 +44,7 @@ public final class SquidUI extends Application {
         this.primaryStage = primaryStage;
         Parent root = new AnchorPane();
         Scene scene = new Scene(root);
+        // scene.getStylesheets().add(skinStyleSheet) // TODO
         primaryStage.setScene(scene);
         primaryStage.getIcons().add(new Image("org/cirdles/squid/gui/images/SquidLogoSansText.png"));
         primaryStage.setTitle("Squid 3.0 pre-release");
